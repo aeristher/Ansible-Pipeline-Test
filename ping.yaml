@@ -1,4 +1,5 @@
   - hosts
     tasks:
       name: ping
-      ping: 
+      ping:
+      data: yay
