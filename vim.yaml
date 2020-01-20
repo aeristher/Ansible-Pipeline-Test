@@ -1,6 +1,6 @@
   - hosts: all
     tasks:
-      - name: Install httpd
+      - name: Install vim
         yum:
-          name: httpd
+          name: vim
           state: present
