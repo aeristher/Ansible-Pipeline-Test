@@ -6,6 +6,5 @@ jobs:
      steps:
         - checkout
         - run: |
-            echo: ${CIRCLE_PULL_REQUEST}
             cp ./hosts /etc/ansible/hosts
             ansible-playbook ./playbooks/vim.yaml
