@@ -1,5 +1,4 @@
   - hosts
     tasks:
       name: ping
-      ping:
-      data: yay
+      shell: ping 127.0.0.1
