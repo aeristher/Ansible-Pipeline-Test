@@ -7,4 +7,4 @@ jobs:
         - checkout
         - run: |
             cp ./hosts.yaml /etc/ansible/hosts
-            ansible-playbook ./playbooks/vim.yaml
+            ansible-playbook ./vim.yaml
