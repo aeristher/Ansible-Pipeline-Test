@@ -1,4 +1,4 @@
   - hosts
     tasks:
-      name: ping
-      shell: ping 127.0.0.1
+      - name: ping
+        shell: ping 127.0.0.1
