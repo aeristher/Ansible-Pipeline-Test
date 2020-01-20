@@ -6,5 +6,6 @@ jobs:
      steps:
         - checkout
         - run: |
+            cp ./ansible.cfg /etc/ansible/ansible.cfg
             cp ./hosts /etc/ansible/hosts
             ansible-playbook ./vim.yaml
