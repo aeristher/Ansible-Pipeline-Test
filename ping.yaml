@@ -1,4 +1,6 @@
   - hosts: all
     tasks:
-      - name: List
-        shell: ls -al
+      - name: Install httpd
+        yum:
+          name: httpd
+          state: latest
